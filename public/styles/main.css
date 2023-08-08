@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+}
+.task-container{
+    margin: 0 auto;
+    width: 70%;
+    background-color: black;
+    padding: 25px;
+}
+.task{
+    background-color: azure;
+    margin: 5px auto 0 auto;
+    height: 35px;
+    width: 30%;
+    font-size: 17px;
+}
+.images{
+    height: 17px;
+}
+button:hover{
+    cursor: pointer;
+}
+.add-task{
+    height: 20px;
+}
+.input-taker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+}
